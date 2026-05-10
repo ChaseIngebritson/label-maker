@@ -63,14 +63,20 @@ Avery 8160 labels are standard mailing labels with these specifications:
 ## Technical Details
 
 Built with:
-- Pure HTML, CSS, and JavaScript
+- React + TypeScript + Vite
+- Typed React components, state, and hooks for tabs, forms, upload parsing, previews, and PDF generation
 - [jsPDF](https://github.com/parallax/jsPDF) library for PDF generation
 - Exact Avery 8160 specifications (0.5" top margin, 0.19" side margins, 2.75" horizontal pitch)
 - No backend required - fully static
 
 ## Local Development
 
-Simply open `index.html` in any modern web browser. No build process or dependencies to install!
+```bash
+npm install
+npm run dev
+```
+
+Then open the Vite URL (usually http://localhost:5173).
 
 ## Docker
 
